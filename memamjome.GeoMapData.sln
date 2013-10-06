@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "memamjome.GeoMapData", "memamjome.GeoMapData\memamjome.GeoMapData.csproj", "{75FEE3D5-79EE-4B95-A3AF-51BA7C5FF8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ldn.DataProvider", "ldn.AntiSocialCorrelations\ldn.DataProvider\ldn.DataProvider.csproj", "{D7EFEE08-81C3-4202-9AC0-7185F7687B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "memamjome.KMeanCluster", "memamjome.KMeanCluster\memamjome.KMeanCluster.csproj", "{48ABCCB9-CD30-4886-8E75-E01F5D899C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75FEE3D5-79EE-4B95-A3AF-51BA7C5FF8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FEE3D5-79EE-4B95-A3AF-51BA7C5FF8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FEE3D5-79EE-4B95-A3AF-51BA7C5FF8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FEE3D5-79EE-4B95-A3AF-51BA7C5FF8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7EFEE08-81C3-4202-9AC0-7185F7687B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EFEE08-81C3-4202-9AC0-7185F7687B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EFEE08-81C3-4202-9AC0-7185F7687B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EFEE08-81C3-4202-9AC0-7185F7687B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48ABCCB9-CD30-4886-8E75-E01F5D899C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48ABCCB9-CD30-4886-8E75-E01F5D899C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48ABCCB9-CD30-4886-8E75-E01F5D899C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48ABCCB9-CD30-4886-8E75-E01F5D899C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

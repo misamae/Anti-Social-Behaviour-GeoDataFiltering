@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Infer.Net</id>
+    <version>2.4</version>
+    <title>Infer.Net</title>
+    <authors>Microsoft Research</authors>
+    <owners>Microsoft Research</owners>
+    <licenseUrl>http://research.microsoft.com/en-us/downloads/0382e633-8702-4130-a2c5-14004be93896/InferNETMSR-LA.rtf</licenseUrl>
+    <projectUrl>http://research.microsoft.com/en-us/projects/infernet/</projectUrl>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/Infer.Net.2.4.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infer.NET is a .NET framework for machine learning. It provides state-of-the-art message-passing algorithms and statistical routines for performing Bayesian inference. It has applications in a wide variety of domains, including information retrieval, bioinformatics, epidemiology, vision, and many others.</description>
+    <summary>Infer.NET is a .NET framework for machine learning. It provides state-of-the-art message-passing algorithms and statistical routines for performing Bayesian inference. It has applications in a wide variety of domains, including information retrieval, bioinformatics, epidemiology, vision, and many others.</summary>
+    <tags>infer machine learning Bayesian inference</tags>
+  </metadata>
+</package>

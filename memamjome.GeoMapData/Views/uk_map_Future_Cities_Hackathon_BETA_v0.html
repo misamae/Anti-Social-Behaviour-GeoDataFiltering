@@ -1,0 +1,53 @@
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css"> html { height: 100% } body { height: 100%; margin: 0; padding: 0 }  #map_canvas { height: 100% } h1{ font-family: Tahoma, Arial, sans-serif; font-size: 99%; color: #0066CC;} div{ font-family: Tahoma, Arial, sans-serif; font-size: 98%; color: #262626;} </style>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0v0qcEnyqFuSI7wz2Y_cUIuv1fvTxVn0&sensor=false"></script>
+<script type="text/javascript">
+
+var inst_map = {}; var inst_info = {}; var inst_circle = {}; var inst_marker = {};
+//#### go and get info from table
+//#### start
+
+
+
+
+inst_map['1'] = { siteName: "Test Site", version: "1.00.01", priority: "1", instruments: "INST1:3, INST2:10", status: "..update needed", ict: "oen", rbm: "Two", pocc: "Three", 
+center: new google.maps.LatLng(53.004558,-2.210956), radius: 10755, strokeColor:"#FFFF00", fillColor: "#FFFF00"};
+
+
+
+//#### end
+function initialize() {
+var map_options = {center: new google.maps.LatLng(53.952101,-10.152628), zoom: 6, mapTypeId: google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("map_canvas"),map_options);
+for (var installation in inst_map) {
+	
+	var circle_options = { strokeColor: inst_map[installation].strokeColor, strokeOpacity: 0.5, strokeWeight: 0.1, fillColor: inst_map[installation].fillColor, fillOpacity: 0.35, map: map, clickable: false, center: inst_map[installation].center, radius: inst_map[installation].radius };
+	
+	var marker_blue = { map: map, icon: 'http://www.google.com/intl/en_us/mapfiles/ms/micons/blue.png', title: inst_map[installation].siteName , position: inst_map[installation].center };
+var marker_green = { map: map, icon: 'http://www.google.com/intl/en_us/mapfiles/ms/micons/green.png', title: inst_map[installation].siteName , position: inst_map[installation].center };
+var marker_red = { map: map, icon: 'http://www.google.com/intl/en_us/mapfiles/ms/micons/red.png', title: inst_map[installation].siteName , position: inst_map[installation].center };
+var contentString = '<div id="content"><div id="siteNotice"></div>'+
+'<h1 id="firstHeading" class="firstHeading">'+ inst_map[installation].siteName +'</h1><div id="bodyContent">'+
+'<i>v. '+ inst_map[installation].version +'</i>'+
+'<br><br><b>Priority. </b>'+ inst_map[installation].priority +''+
+'<br><b>Instruments. </b>'+ inst_map[installation].instruments +''+
+'<br><b>Status. </b>'+ inst_map[installation].status +''+
+'<br><br><i>'+ inst_map[installation].ict +' </i>(ICT)'+
+'<br><i>'+ inst_map[installation].rbm +' </i>(RBM)'+
+'<br><i>'+ inst_map[installation].pocc +' </i>(POCC)'+
+'</div></div>';
+inst_info[installation] = new google.maps.InfoWindow({ content: contentString });
+
+inst_circle[installation] = new google.maps.Circle(circle_options);
+
+if (inst_map[installation].priority == 'done')  {inst_marker[installation] = new google.maps.Marker(marker_green);} else if (inst_map[installation].priority == '1') {inst_marker[installation] = new google.maps.Marker(marker_red);} else {inst_marker[installation] = new google.maps.Marker(marker_blue);}}
+//#### go and get info from table
+//#### start
+var event = google.maps.event.addListener(inst_marker['1'], 'click', function() {   inst_info['1'].open(map, inst_marker['1']); });
+
+
+
+
+//#### end
+}</script><body onload="initialize()"><div id="map_canvas" style="width:80%; height:80%"></div></body></html>

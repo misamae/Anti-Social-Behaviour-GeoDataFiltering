@@ -1,0 +1,15 @@
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\obj\Debug\ldn.DataProvider.csprojResolveAssemblyReference.cache
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\ldn.DataProvider.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\ldn.DataProvider.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Kent.Boogaart.HelperTrinity.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Kent.Boogaart.KBCsv.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Kent.Boogaart.HelperTrinity.xml
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Kent.Boogaart.KBCsv.xml
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\obj\Debug\ldn.DataProvider.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\obj\Debug\ldn.DataProvider.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Infer.Compiler.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Infer.Runtime.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Infer.Runtime.Silverlight.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Infer.Compiler.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Infer.Runtime.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.DataProvider\bin\Debug\Infer.Runtime.Silverlight.pdb

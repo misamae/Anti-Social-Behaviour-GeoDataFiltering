@@ -1,0 +1,12 @@
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\memamjome.SimpleKMeanClustering.exe.config
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\memamjome.SimpleKMeanClustering.exe
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\memamjome.SimpleKMeanClustering.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\obj\Debug\memamjome.SimpleKMeanClustering.csprojResolveAssemblyReference.cache
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\obj\Debug\memamjome.SimpleKMeanClustering.exe
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\obj\Debug\memamjome.SimpleKMeanClustering.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\ldn.DataProvider.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\Kent.Boogaart.KBCsv.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\Kent.Boogaart.HelperTrinity.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\ldn.DataProvider.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\Kent.Boogaart.KBCsv.xml
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.SimpleKMeanClustering\bin\Debug\Kent.Boogaart.HelperTrinity.xml

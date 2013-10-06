@@ -1,0 +1,12 @@
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\ldn.AntiSocialCorrelations.exe.config
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\obj\Debug\ldn.AntiSocialCorrelations.csprojResolveAssemblyReference.cache
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\ldn.AntiSocialCorrelations.exe
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\ldn.AntiSocialCorrelations.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\ldn.DataProvider.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\Kent.Boogaart.KBCsv.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\Kent.Boogaart.HelperTrinity.dll
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\ldn.DataProvider.pdb
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\Kent.Boogaart.KBCsv.xml
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\bin\Debug\Kent.Boogaart.HelperTrinity.xml
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\obj\Debug\ldn.AntiSocialCorrelations.exe
+c:\users\meisamemamjome\documents\visual studio 2012\Projects\ldn.AntiSocialCorrelations\ldn.AntiSocialCorrelations\obj\Debug\ldn.AntiSocialCorrelations.pdb

@@ -1,0 +1,5 @@
+C:\Users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.KMeanCluster\bin\Debug\memamjome.KMeanCluster.dll
+C:\Users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.KMeanCluster\bin\Debug\memamjome.KMeanCluster.pdb
+C:\Users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.KMeanCluster\obj\Debug\memamjome.KMeanCluster.csprojResolveAssemblyReference.cache
+C:\Users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.KMeanCluster\obj\Debug\memamjome.KMeanCluster.dll
+C:\Users\meisamemamjome\documents\visual studio 2012\Projects\memamjome.KMeanCluster\obj\Debug\memamjome.KMeanCluster.pdb

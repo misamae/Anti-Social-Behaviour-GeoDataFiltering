@@ -1,0 +1,91 @@
+﻿<div id="body">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0v0qcEnyqFuSI7wz2Y_cUIuv1fvTxVn0&sensor=false"></script>
+
+    <script type="text/javascript">
+
+        var inst_info = {}; var inst_marker = {};
+
+        function InitialiseMapObject() {
+            var map_options = { center: new google.maps.LatLng(51.503106, -0.152277), zoom: 14, mapTypeId: google.maps.MapTypeId.ROADMAP };
+            return new google.maps.Map(document.getElementById("map_canvas"), map_options);
+        }
+
+        function initialize(map, inst_map, callback) {
+
+            var inst_circle = {};
+
+            for (var installation in inst_map) {
+
+                var circle_options = {
+                    strokeColor: inst_map[installation].strokeColor,
+                    strokeOpacity: 0.5,
+                    strokeWeight: 0.1,
+                    fillColor: inst_map[installation].fillColor,
+                    fillOpacity: 1,
+                    map: map,
+                    clickable: false,
+                    center: inst_map[installation].center,
+                    radius: inst_map[installation].radius
+                };
+                inst_circle[installation] = new google.maps.Circle(circle_options);
+            }
+
+            callback(inst_circle);
+        }
+
+        function GetData(url, map, color, callback) {
+            $.getJSON(url)
+            .done(function (data) {
+
+                var inst_map = {};
+
+                $.each(data, function (i, item) {
+
+                    inst_map[i] = {
+                        siteName: "Test Site",
+                        version: "1.00.01",
+                        category: "done",
+                        instruments: "INST1:3, INST2:10",
+                        status: "..update needed",
+                        ict: "oen",
+                        rbm: "Two",
+                        pocc: "Three",
+                        center: new google.maps.LatLng(item.lat, item.lng), radius: item.r, strokeColor: color, fillColor: color
+                    };
+                })
+
+                initialize(map, inst_map, callback);
+            });
+        }
+
+
+    </script>
+    <script type="text/javascript">
+
+        var bloodpoints = {};
+
+        $(function () {
+            var map = InitialiseMapObject();
+
+            GetData("/api/urines/", map, "FFC310", function () {  })
+            GetData("/api/vomits/", map, "78BE00", function () { });
+            GetData("/api/bloods/", map, "FF2C20", function (points) { bloodpoints = points;} );
+            GetData("/api/dogfoulings/", map, "A33700", function () { });
+            GetData("/api/graffitis/", map, "1EFFA8", function () { });
+            GetData("/api/humanfoulings/", map, "FF6A00", function () { });
+        });
+
+        function removeBloodPoints() {
+
+            alert(bloodpoints);
+
+
+        }
+    </script>
+
+    <style type="text/css"> html { height: 100% } body { height: 100%; margin: 0; padding: 0 }  #map_canvas { height: 100% } h1{ font-family: Tahoma, Arial, sans-serif; font-size: 99%; color: #0066CC;} div{ font-family: Tahoma, Arial, sans-serif; font-size: 98%; color: #262626;} </style>
+
+    @*<button title="removeButtons" onclick="removeBloodPoints"/>*@
+    <div id="map_canvas"></div>
+
+</div>
